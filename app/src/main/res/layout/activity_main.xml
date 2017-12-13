@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.a2dam.appsqlite.MainActivity">
+
+    <Button
+        android:id="@+id/AnStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir Estudiante" />
+
+    <Button
+        android:id="@+id/AnProfesor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir Profesor" />
+
+    <Button
+        android:id="@+id/delN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar por Nombre" />
+
+    <Button
+        android:id="@+id/delDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar DATABASE" />
+</LinearLayout>
